@@ -1,0 +1,11 @@
+{
+    "ConnectionString":"mongodb://app_user:abcd1234@ds145828.mlab.com:45828/exchange",
+    "Beanstalk":{
+        "host": "challenge.aftership.net:11300",
+        "tube": "Ag4PDAwKBQUDBg4PBA0KDA"
+    },
+    "TotalJobPerRun": 10,
+    "ErrorTolerance": 3,
+    "DelaySecPerJob": 60,
+    "DelayPerError": 3
+}

@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "main": "init.js",
   "dependencies": {
+    "beanstalk_client": "^0.2.0",
     "bluebird": "^3.4.7",
-    "co": "^4.6.0"
+    "co": "^4.6.0",
+    "config": "^1.24.0",
+    "mongodb": "^2.2.18",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint-config-aftership": "^3.2.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
